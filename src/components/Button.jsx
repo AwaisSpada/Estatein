@@ -8,6 +8,7 @@ const Button = styled(props => (
   padding: "14px 20px",
   fontSize: "14px",
   borderRadius: "8px",
+  textTransform: "capitalize",
   [theme.breakpoints.up("laptop")]: {
     borderRadius: "10px",
     fontSize: "18px",
